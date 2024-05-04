@@ -28,7 +28,7 @@ const settings = {
     slidesToScroll: 1,
   };
 
-
+  
   return (
     <>
       <div className='container-fluid p-0 mb-5'>
@@ -38,7 +38,8 @@ const settings = {
             {
               carouselData.map((val, index)=>(
                 <div className='carousel-item' key={index}>
-                <img src={val.img} alt='img' className='w-100'/>
+                <img src={`${process.env.PUBLIC_URL}/assets/img/${val.img}`} alt="Descriptive alt text" className="w-100"/>
+
                 <div className='carousel-caption d-flex flex-column align-items-center justify-content-center'>
                 <div className='p-3' style={{maxWidth: "700px"}}>
                   <h6 className='section-title text-white text-uppercase mb-3 animated slideInDown'>{val.subtitle}</h6>

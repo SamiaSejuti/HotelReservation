@@ -67,28 +67,28 @@ export const navList = [
   
   export const carouselData = [
     {
-      img: "../assets/img/carousel-1.jpg",
+      img: "carousel-1.jpg",
       title: "Discover A Brand Luxurious Hotel",
       subtitle: "luxury living",
       btn1: "Our Room",
       btn2: "Book Room",
     },
     {
-      img: "../assets/img/carousel-2.jpg",
+      img: "carousel-2.jpg",
       title: "Step Into A World Of Peace And Comfort",
       subtitle: "luxury living",
       btn1: "Our Room",
       btn2: "Book Room",
     },
     {
-      img: "../assets/img/carousel-3.jpg",
+      img: "carousel-3.jpg",
       title: "Reserve Your Stay In A Peaceful Gateaway",
       subtitle: "luxury living",
       btn1: "Our Room",
       btn2: "Book Room",
     },
     {
-      img: "../assets/img/carousel-4.jpg",
+      img: "carousel-4.jpg",
       title: "We Have Got Your Dream Destination Covered",
       subtitle: "luxury living",
       btn1: "Our Room",
