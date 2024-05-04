@@ -14,12 +14,11 @@ export default function About() {
               </h6>
               <h1 className="mb-4">
                 Welcome to {""}
-                <span className="text-primary text-uppercase">Hotelier</span>
+                <span className="text-primary text-uppercase">Aqua Oasis</span>
               </h1>
-              <p className="mb-4">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                sed stet lorem sit clita duo justo magna dolore erat amet
+              <p className="mb-4" style={{fontSize:"20px"}}>
+              With extensive facilities and unparalleled service, we ensure that you find your perfect retreat. 
+              Discover a world where your comfort is our first priority, and every room opens a new story.
               </p>
               <div className="row g-3 pb-4">
                 {about.map((item, key) => (

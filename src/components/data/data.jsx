@@ -75,7 +75,21 @@ export const navList = [
     },
     {
       img: "../assets/img/carousel-2.jpg",
-      title: "Discover A Brand Luxurious Hotel",
+      title: "Step Into A World Of Peace And Comfort",
+      subtitle: "luxury living",
+      btn1: "Our Room",
+      btn2: "Book Room",
+    },
+    {
+      img: "../assets/img/carousel-3.jpg",
+      title: "Reserve Your Stay In A Peaceful Gateaway",
+      subtitle: "luxury living",
+      btn1: "Our Room",
+      btn2: "Book Room",
+    },
+    {
+      img: "../assets/img/carousel-4.jpg",
+      title: "We Have Got Your Dream Destination Covered",
       subtitle: "luxury living",
       btn1: "Our Room",
       btn2: "Book Room",
@@ -103,56 +117,56 @@ export const navList = [
     {
       icon: <i class="fa fa-hotel fa-2x text-primary"></i>,
       name: "Rooms & Appartment",
-      discription: "Contrary to popular belief, ipsum is not simply random.",
+      discription: "Elegant stays blending comfort and style.",
     },
     {
       icon: <i class="fa fa-utensils fa-2x text-primary"></i>,
       name: "Food & Restaurant",
-      discription: "Contrary to popular belief, ipsum is not simply random.",
+      discription: "Savor fine dining and exquisite flavors.",
     },
     {
       icon: <i class="fa fa-spa fa-2x text-primary"></i>,
       name: "Spa & Fitness",
-      discription: "Contrary to popular belief, ipsum is not simply random.",
+      discription: "Relax and rejuvenate with our wellness services.",
     },
   
     {
       icon: <i class="fa fa-swimmer fa-2x text-primary"></i>,
       name: "Sports & Gaming",
-      discription: "Contrary to popular belief, ipsum is not simply random.",
+      discription: "Engage in thrilling sports and games.",
     },
     {
       icon: <i class="fa fa-glass-cheers fa-2x text-primary"></i>,
       name: "Event & Party",
-      discription: "Contrary to popular belief, ipsum is not simply random.",
+      discription: "Host memorable events and vibrant parties",
     },
   
     {
       icon: <i class="fa fa-dumbbell fa-2x text-primary"></i>,
-      name: "GYM & Yoga",
-      discription: "Contrary to popular belief, ipsum is not simply random.",
+      name: "Gym & Yoga",
+      discription: "Achieve fitness goals in modern facilities.",
     },
   ];
   export const team = [
     {
       image: "../assets/img/team-1.jpg",
-      name: "Full Name",
-      designation: "Designation",
+      name: "Ethan Taylor",
+      designation: "CEO",
     },
     {
       image: "../assets/img/team-2.jpg",
-      name: "Full Name",
-      designation: "Designation",
+      name: "Christina Johnson",
+      designation: "General Manager",
     },
     {
       image: "../assets/img/team-3.jpg",
-      name: "Full Name",
-      designation: "Designation",
+      name: "Toby Rivera",
+      designation: "Master Chef",
     },
     {
-      image: "../assets/img/team-3.jpg",
-      name: "Full Name",
-      designation: "Designation",
+      image: "../assets/img/team-4.jpg",
+      name: "Chris Helens",
+      designation: "Operations Manager",
     },
   ];
   
@@ -195,7 +209,7 @@ export const navList = [
           name: "Event & Party",
         },
         {
-          name: "GYM & Yoga",
+          name: "Gym & Yoga",
         },
       ],
     },
@@ -212,7 +226,7 @@ export const navList = [
     },
     {
       icon: <i className="fa fa-envelope me-3"></i>,
-      name: "info@example.com",
+      name: "info@aquaoasis.com",
     },
   ];
   
@@ -220,25 +234,25 @@ export const navList = [
     {
       icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
       title: "Booking",
-      email: "book@example.com",
+      email: "book@aquaoasis.com",
     },
     {
       icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
       title: "Technical",
-      email: "tech@example.com",
+      email: "tech@aquaoasis.com",
     },
     {
       icon: <i class="fa fa-envelope-open text-primary me-2"></i>,
       title: "General",
-      email: "info@example.com",
+      email: "info@aquaoasis.com",
     },
   ];
   export const testimonial = [
     {
       description:
-        "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
-      name: "Client Name",
-      profession: "Profession",
+      "My stay at the resort was nothing short of spectacular. The attention to detail and customer service were top-notch. Highly recommended for anyone seeking a luxury getaway!",
+      name: "Emma Clarke",
+      profession: "Interior Designer",
       icon: (
         <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
       ),
@@ -246,9 +260,9 @@ export const navList = [
     },
     {
       description:
-        "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
-      name: "Client Name",
-      profession: "Profession",
+        "I hosted a corporate event here and was incredibly impressed with the staff's professionalism and the venue's breathtaking aesthetics. A perfect place for any event!",
+      name: "William Ryerburgs",
+      profession: "Software Engineer",
       icon: (
         <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
       ),
@@ -256,9 +270,9 @@ export const navList = [
     },
     {
       description:
-        "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
-      name: "Client Name",
-      profession: "Profession",
+        "From the stunning, spacious and beautifully appointed rooms to the exquisite dining options, everything was impeccable. It’s definitely one of the top destinations on my travel list",
+      name: "Daniel Hunch",
+      profession: "Entrepreneur",
       icon: (
         <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
       ),
@@ -275,34 +289,43 @@ export const navList = [
         <small class="fa fa-star text-primary"></small>,
         <small class="fa fa-star text-primary"></small>,
         <small class="fa fa-star text-primary"></small>,
-        <small class="fa fa-star text-primary"></small>,
-        <small class="fa fa-star text-primary"></small>,
+        
       ],
       description:
-        "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+        "Discover comfort and affordability in our Junior Suite. This suite provides a cozy, compact space with essential amenities, including a comfortable bed, an en-suite bathroom, and complimentary WiFi. Perfect for budget-conscious travelers, the room offers a simple yet stylish retreat with all the basics for a relaxing stay.",
       yellowbtn: "View Detail",
       darkbtn: "book now",
+      facilities: [
+        { icon: <i className="fa fa-bed text-primary me-2"></i>, quantity: 1, name: "bed" },
+        { icon: <i className="fa fa-bath text-primary me-2"></i>, quantity: 1, name: "bath" },
+        { icon: <i className="fa fa-wifi text-primary me-2"></i>, quantity: "Free", name: "Wifi" },
+      ]
     },
+    
   
     {
       img: "../assets/img/room-2.jpg",
-      price: "$110/night",
+      price: "$160/night",
       name: "Executive Suite",
       star: [
         <small class="fa fa-star text-primary"></small>,
         <small class="fa fa-star text-primary"></small>,
         <small class="fa fa-star text-primary"></small>,
         <small class="fa fa-star text-primary"></small>,
-        <small class="fa fa-star text-primary"></small>,
       ],
       description:
-        "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+        "Elevate your stay in our Executive Suite, designed for both business and leisure travelers. This suite features a spacious layout with a luxurious king-sized bed, a modern bathroom, a well-appointed sitting area, and high-speed WiFi. Ideal for guests who appreciate enhanced comfort, the suite offers a refined setting to work or unwind.",
       yellowbtn: "View Detail",
       darkbtn: "book now",
+      facilities: [
+        { icon: <i className="fa fa-bed text-primary me-2"></i>, quantity: 1, name: "bed" },
+        { icon: <i className="fa fa-bath text-primary me-2"></i>, quantity: 1, name: "bath" },
+        { icon: <i className="fa fa-wifi text-primary me-2"></i>, quantity: "Free", name: "Wifi" },
+      ]
     },
     {
       img: "../assets/img/room-3.jpg",
-      price: "$110/night",
+      price: "$210/night",
       name: "Super Deluxe",
       star: [
         <small class="fa fa-star text-primary"></small>,
@@ -312,25 +335,15 @@ export const navList = [
         <small class="fa fa-star text-primary"></small>,
       ],
       description:
-        "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
+        "Indulge in the luxury of our Super Deluxe room. This premium suite boasts an expansive layout with two super king-sized beds, bathrooms, and top-tier amenities. Elegantly decorated, it offers a sophisticated ambiance with high-end decor and panoramic views, making it the ultimate choice for guests seeking the best in town.",
       yellowbtn: "View Detail",
       darkbtn: "book now",
-    },
+      facilities: [
+        { icon: <i className="fa fa-bed text-primary me-2"></i>, quantity: 2, name: "bed" },
+        { icon: <i className="fa fa-bath text-primary me-2"></i>, quantity: 2, name: "bath" },
+        { icon: <i className="fa fa-wifi text-primary me-2"></i>, quantity: "Free", name: "Wifi" },
+      ]
+    }
   ];
   
-  export const facility = [
-    {
-      icon: <i class="fa fa-bed text-primary me-2"></i>,
-      quantity: 3,
-      facility: "bed",
-    },
-    {
-      icon: <i class="fa fa-bath text-primary me-2"></i>,
-      quantity: 2,
-      facility: "bath",
-    },
-    {
-      icon: <i class="fa fa-wifi text-primary me-2"></i>,
-      facility: "Wifi",
-    },
-  ];
+  

@@ -1,7 +1,12 @@
 import React from 'react'
+import Heading from '../components/common/Heading'
+import About from "../components/home/About"
 
 export default function AboutUs() {
   return (
-    <div>AboutUs</div>
+    <>
+      <Heading heading="About Us" title="Home" subtitle="About"/>
+      <About/>
+    </>
   )
 }
