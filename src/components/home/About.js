@@ -1,6 +1,10 @@
 import React from "react";
 import Heading from "../common/Heading";
 import { about } from "../data/data";
+import about1 from './assets/img/about-1.jpg';
+import about2 from './assets/img/about-2.jpg';
+import about3 from './assets/img/about-3.jpg';
+import about4 from './assets/img/about-4.jpg';
 
 export default function About() {
   return (
@@ -45,7 +49,8 @@ export default function About() {
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.1s"
-                    src="process.env.PUBLIC_URL}/assets/img/about-1.jpg"
+                    src={about1}
+                    alt="about 1 desc"
                     style={{ marginTop: "25%" }}
                   />
                 </div>
@@ -53,21 +58,24 @@ export default function About() {
                   <img
                     className="img-fluid rounded w-100 wow zoomIn"
                     data-wow-delay="0.3s"
-                    src="/about-2.jpg"
+                    src={about2}
+                    alt="about 2 desc"
                   />
                 </div>
                 <div className="col-6 text-end">
                   <img
                     className="img-fluid rounded w-50 wow zoomIn"
                     data-wow-delay="0.5s"
-                    src="/about-3.jpg"
+                    src={about3}
+                    alt="about 3 desc"
                   />
                 </div>
                 <div className="col-6 text-start">
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.7s"
-                    src="/about-4.jpg"
+                    src={about4}
+                    alt="about 4 desc"
                   />
                 </div>
               </div>
