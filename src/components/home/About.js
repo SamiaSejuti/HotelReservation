@@ -1,10 +1,10 @@
 import React from "react";
 import Heading from "../common/Heading";
 import { about } from "../data/data";
-import about1 from './assets/img/about-1.jpg';
-import about2 from './assets/img/about-2.jpg';
-import about3 from './assets/img/about-3.jpg';
-import about4 from './assets/img/about-4.jpg';
+import about1 from '/assets/img/about-1.jpg';
+import about2 from '/assets/img/about-2.jpg';
+import about3 from '/assets/img/about-3.jpg';
+import about4 from '/assets/img/about-4.jpg';
 
 export default function About() {
   return (
