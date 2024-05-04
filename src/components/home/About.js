@@ -53,21 +53,21 @@ export default function About() {
                   <img
                     className="img-fluid rounded w-100 wow zoomIn"
                     data-wow-delay="0.3s"
-                    src={require("/assets/img/about-2.jpg")}
+                    src={require("/assets/img/about-2.jpg").default}
                   />
                 </div>
                 <div className="col-6 text-end">
                   <img
                     className="img-fluid rounded w-50 wow zoomIn"
                     data-wow-delay="0.5s"
-                    src={require("/assets/img/about-3.jpg")}
+                    src={require("/assets/img/about-3.jpg").default}
                   />
                 </div>
                 <div className="col-6 text-start">
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.7s"
-                    src={require("/assets/img/about-4.jpg")}
+                    src={require("/assets/img/about-4.jpg").default}
                   />
                 </div>
               </div>
