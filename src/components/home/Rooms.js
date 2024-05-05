@@ -2,6 +2,7 @@ import React from "react";
 import CommonHeading from "../common/CommonHeading";
 import { roomItems } from "../data/data";
 
+const baseURL = process.env.PUBLIC_URL; 
 export default function Rooms() {
   return (
     <div className="container-xxl py-5">
@@ -12,7 +13,7 @@ export default function Rooms() {
             <div className="col-lg-4 col-md-6" key={index}>
               <div className="room-item shadow rounded overflow-hidden">
                 <div className="position-relative">
-                  <img className="img-fluid" src={room.img} alt={room.name} />
+                <img className="img-fluid" src={`${baseURL}/assets/img/${room.img}`} alt={room.name} />
                   <small className="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">
                     {room.price}
                   </small>

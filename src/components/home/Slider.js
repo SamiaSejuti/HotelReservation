@@ -26,13 +26,13 @@ export default function Sliders() {
                 <div
                   key={key}
                   className="testimonial-item position-relative bg-white rounded overflow-hidden"
-                  
                 >
                   <p>{item.description}</p>
                   <div className="d-flex align-items-center">
                     <img
                       className="img-fluid flex-shrink-0 rounded"
-                      src={item.img}
+                      src={`${process.env.PUBLIC_URL}/assets/img/${item.img}`}
+                      alt="Descriptive alt text"
                       style={{ width: "45px", height: "45px" }}
                     />
                     <div className="ps-3">

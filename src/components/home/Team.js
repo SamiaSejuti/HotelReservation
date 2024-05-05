@@ -22,7 +22,12 @@ export default function Teams() {
               >
                 <div className="rounded shadow overflow-hidden">
                   <div className="position-relative">
-                    <img className="img-fluid" src={item.image} alt="img" />
+                    <img
+                      className="img-fluid"
+                      src={`${process.env.PUBLIC_URL}/assets/img/${item.image}`}
+                      alt={item.name || "Descriptive alternative text"}
+                    />
+
                     <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                       {socialIcons.slice(0, 3).map((val, index) => (
                         <a

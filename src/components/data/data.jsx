@@ -149,22 +149,22 @@ export const navList = [
   ];
   export const team = [
     {
-      image: "../assets/img/team-1.jpg",
+      image: "team-1.jpg",
       name: "Ethan Taylor",
       designation: "CEO",
     },
     {
-      image: "../assets/img/team-2.jpg",
+      image: "team-2.jpg",
       name: "Christina Johnson",
       designation: "General Manager",
     },
     {
-      image: "../assets/img/team-3.jpg",
+      image: "team-3.jpg",
       name: "Toby Rivera",
       designation: "Master Chef",
     },
     {
-      image: "../assets/img/team-4.jpg",
+      image: "team-4.jpg",
       name: "Chris Helens",
       designation: "Operations Manager",
     },
@@ -256,7 +256,7 @@ export const navList = [
       icon: (
         <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
       ),
-      img: "../assets/img/testimonial-1.jpg",
+      img: "testimonial-1.jpg",
     },
     {
       description:
@@ -266,7 +266,7 @@ export const navList = [
       icon: (
         <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
       ),
-      img: "../assets/img/testimonial-2.jpg",
+      img: "testimonial-2.jpg",
     },
     {
       description:
@@ -276,13 +276,13 @@ export const navList = [
       icon: (
         <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
       ),
-      img: "../assets/img/testimonial-3.jpg",
+      img: "testimonial-3.jpg",
     },
   ];
   
   export const roomItems = [
     {
-      img: "../assets/img/room-1.jpg",
+      img: "room-1.jpg",
       price: "$110/night",
       name: "Junior Suit",
       star: [
@@ -304,7 +304,7 @@ export const navList = [
     
   
     {
-      img: "../assets/img/room-2.jpg",
+      img: "room-2.jpg",
       price: "$160/night",
       name: "Executive Suite",
       star: [
@@ -324,7 +324,7 @@ export const navList = [
       ]
     },
     {
-      img: "../assets/img/room-3.jpg",
+      img: "room-3.jpg",
       price: "$210/night",
       name: "Super Deluxe",
       star: [
