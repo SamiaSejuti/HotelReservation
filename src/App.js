@@ -23,7 +23,7 @@ export default function App() {
   return (
     <>
     <div>
-      <Router>
+      <Router basename="/HotelReservation">
       <Header/>
         <Routes>
           <Route path="/" element={<Home/>}/>

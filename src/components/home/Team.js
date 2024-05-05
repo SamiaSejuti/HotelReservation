@@ -27,8 +27,7 @@ export default function Teams() {
                       {socialIcons.slice(0, 3).map((val, index) => (
                         <a
                           className="btn btn-square btn-primary mx-1"
-                          href="null"
-                          style={{pointerEvents: 'none'}}
+                          href=""
                           key={index}
                         >
                           {val.icon}

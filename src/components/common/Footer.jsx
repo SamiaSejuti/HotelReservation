@@ -15,10 +15,11 @@ export default function Footer() {
             <div className="col-md-6 col-lg-4">
               <div className="bg-primary rounded p-4">
                 <Link to="/">
-                  <h1 className="text-white text-uppercase mb-3">Aqua Oasis</h1>
+                  <h1 className="text-white text-uppercase mb-3">Hotelier</h1>
                 </Link>
                 <p className="text-white mb-0">
-                Thank you for exploring our website. For the latest updates and exclusive offers, please stay connected with us. Book your stay today!
+                  Build a professional website for your hotel business and grab
+                  the attention of new visitors upon your site’s launch.
                 </p>
               </div>
             </div>
