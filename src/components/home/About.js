@@ -4,6 +4,7 @@ import { about } from "../data/data";
 
 
 export default function About() {
+  const baseUrl = "https://SamiaSejuti.github.io/HotelReservation";
   return (
     <>
       <div className="container-xxl py-5">
@@ -46,7 +47,7 @@ export default function About() {
                   <img
                     className="img-fluid rounded w-75 wow zoomIn"
                     data-wow-delay="0.1s"
-                    src={`${process.env.PUBLIC_URL}/assets/img/about-1.jpg`} alt="about 1 desc"
+                    src={`${baseUrl}/assets/img/about-1.jpg`} alt="about 1 desc"
                     style={{ marginTop: "25%" }}
                   />
                 </div>
@@ -54,14 +55,14 @@ export default function About() {
                   <img
                     className="img-fluid rounded w-100 wow zoomIn"
                     data-wow-delay="0.3s"
-                    src={`${process.env.PUBLIC_URL}/assets/img/about-2.jpg`} alt="about 2 desc"
+                    src={`${baseUrl}/assets/img/about-2.jpg`} alt="about 2 desc"
                   />
                 </div>
                 <div className="col-6 text-end">
                   <img
                     className="img-fluid rounded w-50 wow zoomIn"
                     data-wow-delay="0.5s"
-                    src={`${process.env.PUBLIC_URL}/assets/img/about-3.jpg`} alt="about 3 desc"
+                    src={`${baseUrl}/assets/img/about-3.jpg`} alt="about 3 desc"
                     
                   />
                 </div>
